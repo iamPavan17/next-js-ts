@@ -14,8 +14,7 @@ export default async function SnippetShowPage(props: SnippetShowPageProps) {
   });
 
   if (!snippet) {
-    // import { notFound } from "next/navigation";
-    return notFound(); // will render default not found page
+    return notFound();
   }
 
   return <div>{snippet.title}</div>;
