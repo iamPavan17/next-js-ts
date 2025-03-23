@@ -9,6 +9,7 @@ interface ErrorPageProps {
   reset: () => void;
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export default function ErrorPage({ error, reset }: ErrorPageProps) {
   return (
     <div>
